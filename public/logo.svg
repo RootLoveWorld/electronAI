@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="120" fill="url(#grad1)" />
+  
+  <!-- Book icon -->
+  <rect x="80" y="90" width="96" height="76" rx="8" fill="#ffffff" opacity="0.9"/>
+  <rect x="88" y="98" width="80" height="60" rx="4" fill="none" stroke="#4f46e5" stroke-width="2"/>
+  
+  <!-- Pages -->
+  <line x1="128" y1="98" x2="128" y2="158" stroke="#4f46e5" stroke-width="2"/>
+  <line x1="88" y1="118" x2="120" y2="118" stroke="#4f46e5" stroke-width="1"/>
+  <line x1="88" y1="128" x2="120" y2="128" stroke="#4f46e5" stroke-width="1"/>
+  <line x1="88" y1="138" x2="120" y2="138" stroke="#4f46e5" stroke-width="1"/>
+  
+  <!-- Text lines on right page -->
+  <line x1="136" y1="118" x2="160" y2="118" stroke="#f59e0b" stroke-width="2"/>
+  <line x1="136" y1="128" x2="160" y2="128" stroke="#f59e0b" stroke-width="2"/>
+  <line x1="136" y1="138" x2="160" y2="138" stroke="#f59e0b" stroke-width="2"/>
+  
+  <!-- Graduation cap accent -->
+  <circle cx="180" cy="80" r="16" fill="#f59e0b"/>
+  <rect x="172" y="72" width="16" height="4" fill="#ffffff"/>
+  <polygon points="180,68 185,75 175,75" fill="#ffffff"/>
+</svg>
